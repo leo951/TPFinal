@@ -2,7 +2,7 @@ from http.client import HTTPException
 from telnetlib import STATUS
 from bson import ObjectId
 from debugpy import connect
-# from fastapi import APIRouter, HTTPException, status, body
+from fastapi import APIRouter, HTTPException, status, body
 
 from models.movie import Movie
 from config.db import dbMovie
